@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-20",
+  "generated_at": "2026-07-20T18:00:00+02:00",
   "site": "https://gridatlas.de",
   "file_count": 52,
+  "note": "FILE_MANIFEST.json excludes itself from hashing.",
   "files": [
     {
       "path": ".nojekyll",
@@ -20,8 +21,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 583,
-      "sha256": "806b57b7e5db01aa0345e6aa7d58c2d60139859e28077c461f45e9726288291f"
+      "bytes": 1088,
+      "sha256": "de03bc5a7a7c46e9cd6f35822c1bb9fc0693f4df81cec56ea52e06f6a2f74ab1"
     },
     {
       "path": "CNAME",
@@ -30,8 +31,8 @@
     },
     {
       "path": "CONTENT_SOURCE_MAP.md",
-      "bytes": 834,
-      "sha256": "9ae95829ef5a25b997a537392cc101492601bb8ad727bedee7db4ee3583d1097"
+      "bytes": 1233,
+      "sha256": "4571b0cc618cc9bc35855d074fd662a7d7ed54231097c6537b6e2e3ddad9e756"
     },
     {
       "path": "ORGANIC_LAUNCH_PLAN.md",
@@ -40,8 +41,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2918,
-      "sha256": "855b7a1678ac89db387bd3dcc9f310962717ba0813b19a2a3ab194607f3fa9ee"
+      "bytes": 3405,
+      "sha256": "21e1e23a95475d457ccd4ff5fd0d4b9a0c7ba816f40296465605771f0e34d5a1"
     },
     {
       "path": "SECURITY.md",
@@ -50,8 +51,8 @@
     },
     {
       "path": "START_HIER.md",
-      "bytes": 820,
-      "sha256": "9fdad60c7a42d9626ae4ee9a8daec424fd1a37d70ce06ba6185589e88a999597"
+      "bytes": 1402,
+      "sha256": "84fc6cc81907f39b4ec1f1b6dd3d4c7e9ad0ccc29db8d8ab60cafa8d0e38621d"
     },
     {
       "path": "VALIDATION_PLAN.md",
@@ -60,13 +61,13 @@
     },
     {
       "path": "VALIDATION_REPORT.md",
-      "bytes": 2259,
-      "sha256": "184247528478fd8afe1ce68da97bc3d87ca89165c51457cda9bdf9156baeaf66"
+      "bytes": 3048,
+      "sha256": "a43557ae7dbab23b9c367652354decffe9e8523ec380f51b6bfcc913d5250318"
     },
     {
       "path": "assets/css/styles.css",
-      "bytes": 20179,
-      "sha256": "cad48da7d1431e2dba51c35d276b306fd374144754a9d149674c53a3b9d7782f"
+      "bytes": 20460,
+      "sha256": "91b375f9a13960a44324815aa82ed7eb92bb15da180c097e7219a14c471a06df"
     },
     {
       "path": "assets/icons/favicon.svg",
@@ -130,13 +131,13 @@
     },
     {
       "path": "docs/previews/home-desktop.png",
-      "bytes": 1311146,
-      "sha256": "83d73b01cb37a6023e64530093ebc1f3a89b494445747c39b99a810d5aec1bcf"
+      "bytes": 1313633,
+      "sha256": "226d7201f89ba1fc629cc796f1a6c52eb2b68a95e14fcd297878c690bc895aa8"
     },
     {
       "path": "docs/previews/home-mobile.png",
-      "bytes": 784957,
-      "sha256": "b689e8573a053a3a7ef3e058b0658d7009176f26aaabe3659c407aa1eb71e63a"
+      "bytes": 786623,
+      "sha256": "08bbb76059513b0b412a40d48d029a229bea50c9f43b73f44fbe643626323b04"
     },
     {
       "path": "docs/previews/selfcheck-report.png",
@@ -170,8 +171,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 15240,
-      "sha256": "e9eb44e1010426e26d942add506116f8a940ed8a633641dfcf1b32d81df3684d"
+      "bytes": 15257,
+      "sha256": "666a88d14bd7521c19ff63a2f8857a83bd1ed50c125a9fb608c875c3b74063f7"
     },
     {
       "path": "netzanschlussunterlagen-pruefen/index.html",
@@ -185,8 +186,8 @@
     },
     {
       "path": "pilot/index.html",
-      "bytes": 12255,
-      "sha256": "cf39cf97e485cecbee7fc72dc80b2f7c642757b48f53937db4c4cce664affb69"
+      "bytes": 12331,
+      "sha256": "664b94ffb29246c315c83758d0cae06fb16fe66a6e1c2627d97b4eb8a2fe4314"
     },
     {
       "path": "produkt/index.html",

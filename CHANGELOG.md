@@ -1,5 +1,13 @@
 # Changelog
 
+## Accessibility & Product-Truth Update – 20.07.2026
+- Lighthouse-Kontrastproblem für kleine Akzenttexte behoben
+- Überschriftenhierarchie der Startseite semantisch korrigiert
+- sichtbare Tastatur-Fokusmarkierungen ergänzt
+- Pilotkommunikation geschärft: Bewerbung jetzt, Test erst nach Sicherheits- und Datenschutz-Gate
+- öffentliche Aussagen mit Product Core Mission 013 und kanonischer Wissensbasis v5.2 abgeglichen
+- keine neuen Frameworks, Tracker, Automationen oder externen Abhängigkeiten
+
 ## Growth-Ready Launch
 - Startseite radikal gekürzt und auf kostenlosen Prozesscheck ausgerichtet
 - interaktiver 5-Schritt-Selbstcheck mit deterministischem Score

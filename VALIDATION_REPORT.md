@@ -1,51 +1,84 @@
-# GridAtlas Website – Validierungsbericht
+# GridAtlas Website – Validierungsbericht v2
 
 **Stand:** 20. Juli 2026  
-**Ziel:** Statische GitHub-Pages-Website mit Selbstcheck, organischer Auffindbarkeit und Pilotbewerbung.
+**Ziel:** Bestehende Growth-Ready-Website gezielt reparieren, ohne Redesign, neue Frameworks oder Automatisierung.
 
-## Bestand
+## Abgeglichene Grundlagen
 
-- 27 HTML-Dateien einschließlich Legacy-Weiterleitungen
-- 20 eindeutige öffentliche Seitentitel
-- 10 problemspezifische Wissens-/SEO-Einstiege
-- 1 mehrstufiger Selbstcheck
-- 1 sofort erzeugter Browserbericht
-- 1 Pilotbewerbungsformular
-- GitHub-Pages-CNAME, robots.txt, Sitemap und Security Contact
+- GridAtlas Website Growth Ready
+- GridAtlas Product Core Mission 013
+- GridAtlas OS kanonisch v5.2 / Mission 012
+- vom Nutzer bereitgestellter PageSpeed-/Lighthouse-Bericht
 
-## Erfolgreiche Prüfungen
+## Durchgeführte Änderungen
 
-- alle internen Links und Assets vorhanden
-- alle öffentlichen Seiten mit Canonical URL und Meta Description
-- JSON-LD syntaktisch gültig
+- Kontrast kleiner Akzenttexte erhöht
+- Überschriftenhierarchie der Startseite korrigiert
+- globale sichtbare Tastatur-Fokusmarkierung ergänzt
+- `Pilotzugang` sprachlich zu `Pilotplatz` präzisiert
+- Pilotseite trennt Bewerbung und späteren begleiteten Test klarer
+- Product-Core- und Sicherheitsgrenzen erneut abgeglichen
+
+## Technische Prüfungen
+
+- 27 HTML-Dateien geprüft
+- keine defekten internen Links oder Asset-Verweise
+- keine Überschriften-Sprünge `h1 → h3` mehr
+- JSON-LD auf allen entsprechenden Seiten syntaktisch gültig
 - Sitemap XML gültig
-- keine sichtbaren internen Produktversionsnummern
-- keine Inline-Styles
-- keine Verwendung von `innerHTML`, `insertAdjacentHTML`, `eval` oder `new Function`
-- JavaScript-Syntax für Hauptskript, Selbstcheck und Engine gültig
-- Content Security Policy auf allen öffentlichen Seiten vorhanden
-- keine externen Schriftarten, Analyse- oder Werbeskripte
-- keine Speicherung von Selbstcheck-Antworten in Local Storage
-- kein Dokumentenupload und kein Login auf der öffentlichen Website
+- JavaScript-Syntax von Hauptskript, Selbstcheck und Engine gültig
+- keine neuen Drittanbieter-Skripte, Tracker oder Frameworks
+- Content Security Policy unverändert vorhanden
+- kein Dokumentenupload und kein Login auf der Marketingwebsite
+- keine internen Produktpakete oder Master-Prompts im öffentlichen Website-ZIP
 
-## Selbstcheck-Tests
+## Accessibility
 
-- strukturierter Minimalprozess: Score `0`
-- stark manueller/fragmentierter Prozess: Score `100`
-- Ergebnisstufen korrekt zugeordnet
-- Reibungspunkte, drei Empfehlungen und individuelle Prüfliste erzeugt
-- interaktiver vollständiger Durchlauf im Chromium-Browser erfolgreich
-- Berichtsdarstellung auf Desktop gerendert
+Im bereitgestellten Lighthouse-Bericht lagen kleine blaue Akzenttexte auf hellen Flächen knapp unter WCAG AA.
 
-## Responsive Prüfung
+Neue Kontrastwerte für `#1d4fc0`:
 
-- Desktopansicht 1440 × 1000 gerendert
-- Mobilansicht 390 × 844 gerendert
-- Navigation, CTA, Karten und Footer responsiv
+- auf `#f4f7fb`: 6,67:1
+- auf `#eef3ff`: 6,45:1
+- auf `#eaf0ff`: 6,28:1
+- auf `#f5f8fc`: 6,72:1
+
+Erforderlich für kleinen Text: mindestens 4,5:1.
+
+Die vorherige Heading-Abweichung in der illustrativen Produktvorschau wurde semantisch entfernt.
+
+## Selbstcheck-Regression
+
+- strukturierter Referenzfall: Score `0`
+- stark fragmentierter Referenzfall: Score `100`
+- höchste Ergebnisstufe: `high`
+- maximal drei priorisierte Empfehlungen
+- bis zu acht Reibungspunkte
+- individuelle Prüfliste erzeugt
+
+## Responsive Rendering
+
+- Desktop: 1440 × 1000, kein horizontaler Overflow
+- Mobile: 390 × 844, kein horizontaler Overflow
+- Vorschaugrafiken aktualisiert
+
+## Produktwahrheit
+
+Die Website behauptet weiterhin nicht:
+
+- vollständige VNB-Abdeckung
+- produktive Multi-Tenant-Cloud
+- universelle OCR
+- automatische technische Freigabe
+- garantierte Normkonformität
+- automatische Portaleinreichung
+- bestätigte Zeitersparnis oder Zahlungsbereitschaft
+
+Der aktuelle Product Core wird korrekt als ausführbarer schmaler Kern beschrieben. Ein externer Test bleibt an Sicherheits-, Datenschutz- und Pilotkriterien gebunden.
 
 ## Bewusste Grenzen
 
-- Formspree wurde nicht mit einer echten Testanfrage belastet; das muss Max nach Deployment einmal selbst testen.
-- Es wurde kein rechtliches Gutachten für Impressum oder Datenschutz erstellt.
-- GitHub Pages erlaubt keine frei konfigurierbaren HTTP-Response-Header. Die statische Marketingseite ist gehärtet, die spätere Produkt-App benötigt dennoch ein separates Hosting mit serverseitiger Sicherheit.
-- Organische Rankings können nicht garantiert werden. Sitemap und Indexierungsanfragen beschleunigen Entdeckung, ersetzen aber keine Zeit, Inhalte und seriösen Verweise.
+- Ein neuer PageSpeed-Live-Test muss nach dem GitHub-Deployment auf `https://gridatlas.de/` ausgeführt werden.
+- Organische Rankings sind nicht garantiert und benötigen Indexierung, Inhalte, Zeit und seriöse externe Signale.
+- Impressum und Datenschutz wurden technisch, nicht durch ein juristisches Gutachten geprüft.
+- Die spätere Produkt-App darf nicht auf GitHub Pages mit realen Kundendokumenten betrieben werden.

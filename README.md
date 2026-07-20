@@ -1,9 +1,17 @@
+# GridAtlas Website – Growth Ready
 
-# GridAtlas Website
+Öffentliche Marketing-, Selbstcheck- und Pilot-Website für **https://gridatlas.de**.
 
-Die offizielle Website befindet sich unter https://gridatlas.de.
 
-Dieses Repository enthält ausschließlich den Quellcode der öffentlichen Marketingwebsite.
+## Update v2 – Accessibility und Pilotklarheit
+
+- kleine Akzenttexte besitzen jetzt ausreichend WCAG-AA-Kontrast
+- Heading-Struktur der Startseite wurde korrigiert
+- Tastaturfokus ist deutlicher sichtbar
+- Pilotbewerbung und tatsächlicher Testzugang sind klar getrennt
+- Product-Core-Aussagen wurden gegen Mission 013 und Wissensbasis v5.2 geprüft
+
+Das Update benötigt keine neue DNS-, Pages- oder Formspree-Konfiguration. Bestehende Dateien können direkt überschrieben werden.
 
 ## Sofort veröffentlichen
 
