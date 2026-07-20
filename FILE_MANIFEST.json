@@ -1,0 +1,267 @@
+{
+  "generated_at": "2026-07-20",
+  "site": "https://gridatlas.de",
+  "file_count": 52,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": ".well-known/security.txt",
+      "bytes": 195,
+      "sha256": "8c64bd50778fe801c7424b520ebf29b7ffa87705143fd69c3ddc239336b39e73"
+    },
+    {
+      "path": "404.html",
+      "bytes": 6191,
+      "sha256": "ae42ccaf5ea3341b4fa0011496eceabc58d3752df32b96555ac6eb598843a0b4"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 583,
+      "sha256": "806b57b7e5db01aa0345e6aa7d58c2d60139859e28077c461f45e9726288291f"
+    },
+    {
+      "path": "CNAME",
+      "bytes": 13,
+      "sha256": "1859247c53f09e2bbb1b6d75baf469df064da1febc52031f7c3ccfc815d2ee7d"
+    },
+    {
+      "path": "CONTENT_SOURCE_MAP.md",
+      "bytes": 834,
+      "sha256": "9ae95829ef5a25b997a537392cc101492601bb8ad727bedee7db4ee3583d1097"
+    },
+    {
+      "path": "ORGANIC_LAUNCH_PLAN.md",
+      "bytes": 1168,
+      "sha256": "8d2f07b36cb227d70b40a6a61f2aff1156646f30a55e7a05cebba47fa4493a9a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2918,
+      "sha256": "855b7a1678ac89db387bd3dcc9f310962717ba0813b19a2a3ab194607f3fa9ee"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 780,
+      "sha256": "acff2500dbbede2cbfc010812449fd0859c2b207a5160223154006a9a3404f39"
+    },
+    {
+      "path": "START_HIER.md",
+      "bytes": 820,
+      "sha256": "9fdad60c7a42d9626ae4ee9a8daec424fd1a37d70ce06ba6185589e88a999597"
+    },
+    {
+      "path": "VALIDATION_PLAN.md",
+      "bytes": 804,
+      "sha256": "81aae8fa2d8be5401ef9b695daead2d086ec595c6535d47885e25a6bdc11693b"
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "bytes": 2259,
+      "sha256": "184247528478fd8afe1ce68da97bc3d87ca89165c51457cda9bdf9156baeaf66"
+    },
+    {
+      "path": "assets/css/styles.css",
+      "bytes": 20179,
+      "sha256": "cad48da7d1431e2dba51c35d276b306fd374144754a9d149674c53a3b9d7782f"
+    },
+    {
+      "path": "assets/icons/favicon.svg",
+      "bytes": 303,
+      "sha256": "77703bc687f9aded89fb8d7982a40bc2c8c18609941fceff319abef2fe95356a"
+    },
+    {
+      "path": "assets/images/apple-touch-icon.png",
+      "bytes": 4454,
+      "sha256": "572bef371247747e8e5bd45cf412a2e9bc39afedba1b11472971405ab2ec9a59"
+    },
+    {
+      "path": "assets/images/gridatlas-logo.png",
+      "bytes": 1978,
+      "sha256": "28a924af57b60821362a22ca6989f6f0e9b6c75db3b6cfc801e7d1f81657e564"
+    },
+    {
+      "path": "assets/images/gridatlas-og.png",
+      "bytes": 40535,
+      "sha256": "dbe7cbc5c6adbefc7a6f064aecea14b723e98e977331549e6af9421d86f501fe"
+    },
+    {
+      "path": "assets/js/config.js",
+      "bytes": 170,
+      "sha256": "43f70dfc506547eda5cfc8d013b74a94dccbfb6274cb63da006f34a8e73841b5"
+    },
+    {
+      "path": "assets/js/main.js",
+      "bytes": 2978,
+      "sha256": "ce04fb09aeb2f9646971ddb2d57e483a202386c9801bee9a2816b44d2a640b42"
+    },
+    {
+      "path": "assets/js/self-check-engine.mjs",
+      "bytes": 8757,
+      "sha256": "19c7657598188968a4f22fb8c14459f02f8cf2074cb54d0be9e6103b843eed0d"
+    },
+    {
+      "path": "assets/js/self-check.mjs",
+      "bytes": 4468,
+      "sha256": "3fc907e8043bb32b393db0b8e287a64eef925bb5424e9637c3f5337804d68507"
+    },
+    {
+      "path": "danke/index.html",
+      "bytes": 6027,
+      "sha256": "aef57cc06cae649fc3ffffc7de8d03e0e008fb66670461f91947440c30dcaf34"
+    },
+    {
+      "path": "danke.html",
+      "bytes": 311,
+      "sha256": "8fc9a2b74e4d846afb5676e94fadabea5a252cf6c7453ba5df28e70903d85b38"
+    },
+    {
+      "path": "datenschutz/index.html",
+      "bytes": 9931,
+      "sha256": "1d3090ef8c94afc5b84160ad6f5c7879fa7d50b28e70de396e38919e88647706"
+    },
+    {
+      "path": "datenschutz.html",
+      "bytes": 329,
+      "sha256": "0c99228f94a4a36ff7e7d5abb77d4aa425aa30dab8accbe51513bb27b1d6dcbd"
+    },
+    {
+      "path": "docs/previews/home-desktop.png",
+      "bytes": 1311146,
+      "sha256": "83d73b01cb37a6023e64530093ebc1f3a89b494445747c39b99a810d5aec1bcf"
+    },
+    {
+      "path": "docs/previews/home-mobile.png",
+      "bytes": 784957,
+      "sha256": "b689e8573a053a3a7ef3e058b0658d7009176f26aaabe3659c407aa1eb71e63a"
+    },
+    {
+      "path": "docs/previews/selfcheck-report.png",
+      "bytes": 452516,
+      "sha256": "ccdd6771c3f727cae1d71ffcf3d5005608cefd7f22be77104120516cfbb565cf"
+    },
+    {
+      "path": "e8-inbetriebsetzungsprotokoll/index.html",
+      "bytes": 9051,
+      "sha256": "e8023f3dd658942a23aaff1ba63e10808431e329c6bfed6bdfe8d03c4744e9f2"
+    },
+    {
+      "path": "fuer-elektrobetriebe/index.html",
+      "bytes": 9244,
+      "sha256": "15cddc7c6f76cde75a1b29f3fe91da81e56ec287fd0fa61ab4c630b8bcb55c55"
+    },
+    {
+      "path": "fuer-elektrobetriebe.html",
+      "bytes": 356,
+      "sha256": "24a1640fdee5a2d1ca5fe4255e1cb827874f3ee1f0e30a8bc5a6e4f6ae27ff17"
+    },
+    {
+      "path": "impressum/index.html",
+      "bytes": 6797,
+      "sha256": "70b3c427f70d0f2f7a7dd8904a3345f2c6054e6fad3f344b157faa7841d489a7"
+    },
+    {
+      "path": "impressum.html",
+      "bytes": 323,
+      "sha256": "8d8997b2dffc9c36550f13258a42c6b1739e39281e9715123103d9b048aef207"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15240,
+      "sha256": "e9eb44e1010426e26d942add506116f8a940ed8a633641dfcf1b32d81df3684d"
+    },
+    {
+      "path": "netzanschlussunterlagen-pruefen/index.html",
+      "bytes": 9721,
+      "sha256": "3ecf3660ecf8852e2e2776fa7d735ac823ddb54c8d579cef97d4e9af3c707f0c"
+    },
+    {
+      "path": "netzanschlussunterlagen-pruefen.html",
+      "bytes": 389,
+      "sha256": "9e9f279292b26ed6fd6bd90751e6fccbc0e912001b58ebb8adafa8dfc82e4c8c"
+    },
+    {
+      "path": "pilot/index.html",
+      "bytes": 12255,
+      "sha256": "cf39cf97e485cecbee7fc72dc80b2f7c642757b48f53937db4c4cce664affb69"
+    },
+    {
+      "path": "produkt/index.html",
+      "bytes": 10168,
+      "sha256": "d705a470f39e8ab1c8186bfa671e7bfe92bfa3f4a8d68d7ef942fa3a80848327"
+    },
+    {
+      "path": "produkt.html",
+      "bytes": 317,
+      "sha256": "2b8d3d738353b3327dfe94b4000dbc37ed38a5b32d058bcc6b078d10bc9a918a"
+    },
+    {
+      "path": "pv-netzanmeldung-checkliste/index.html",
+      "bytes": 9476,
+      "sha256": "19fd43b3842177b8023096cf2179145ce31259fdd80757ea376836e3d1cef363"
+    },
+    {
+      "path": "pv-netzanmeldung-software/index.html",
+      "bytes": 9409,
+      "sha256": "cacf6e441e4be2b55157bccb3f605f86b1fad512b246ba7b344b46251c4b2424"
+    },
+    {
+      "path": "pv-netzanmeldung.html",
+      "bytes": 314,
+      "sha256": "fcbc2f35e13488fbe8ec46ab4cc66ca30b5c8026b7960114daa17ef66554aba8"
+    },
+    {
+      "path": "pv-netzanschluss-check/index.html",
+      "bytes": 27127,
+      "sha256": "d9d8c0d2cc30ef57d249ed13cf469b22456200c92476aad322e9cb57d12df4a2"
+    },
+    {
+      "path": "pv-speicher-netzanmeldung/index.html",
+      "bytes": 9000,
+      "sha256": "876759cbd4bb61e11601a7eadba1170cb749a49711d31dcc3b37af1f6bc4bdbc"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 84,
+      "sha256": "49ee2ff59122f644d397eceb1e436e57fd0d90ae661bf6eb61fc687e44575267"
+    },
+    {
+      "path": "rueckfragen-netzbetreiber-pv/index.html",
+      "bytes": 8931,
+      "sha256": "6a6c40413d8850fbd1e48740bc633cdf6b9f94b37b14ba67922f6eb0951bd318"
+    },
+    {
+      "path": "security/index.html",
+      "bytes": 6515,
+      "sha256": "326c795c827343e2d4a16201a29242907d089a4d0604966375812d6041afe2e2"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 1549,
+      "sha256": "b45885077a288f155275d6a5f3dadb92fda53e40d971bdb97698609505544906"
+    },
+    {
+      "path": "software-elektrobetriebe-pv/index.html",
+      "bytes": 8708,
+      "sha256": "1d0125d002560283ff2504f7f06fe60eff9e94284b56812dfd61b47499628978"
+    },
+    {
+      "path": "wechselrichter-angaben-pruefen/index.html",
+      "bytes": 8969,
+      "sha256": "df8b6363d8e451da421880d3978e4a61b370ed2ecbfae66cd92c74a2d0fd4cd1"
+    },
+    {
+      "path": "wissen/index.html",
+      "bytes": 9145,
+      "sha256": "c026810ae0ab46e3cafbf5c797879b63dc383c4038bdd4f86f43e7e69912e4ac"
+    },
+    {
+      "path": "zerez-id-pv-anlage/index.html",
+      "bytes": 8840,
+      "sha256": "b1529d1abbea376abd31fa74e8953d4eb500c4b9b1cf020d3700c3ffcd272464"
+    }
+  ]
+}
