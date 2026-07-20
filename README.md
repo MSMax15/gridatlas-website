@@ -1,6 +1,3 @@
-# GridAtlas Website – Growth Ready
-
-Öffentliche Marketing-, Selbstcheck- und Pilot-Website für **https://gridatlas.de**.
 
 # GridAtlas Website
 
