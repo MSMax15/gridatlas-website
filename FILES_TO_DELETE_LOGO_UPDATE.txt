@@ -1,0 +1,3 @@
+GridAtlas_Website_UPLOAD_TO_GITHUB.zip
+
+Diese veraltete, eingebettete ZIP-Datei aus dem Repository löschen. Sie gehört nicht zur ausgelieferten Website und könnte später versehentlich wieder alte Logos einspielen.
