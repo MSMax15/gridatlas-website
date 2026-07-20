@@ -2,6 +2,12 @@
 
 Öffentliche Marketing-, Selbstcheck- und Pilot-Website für **https://gridatlas.de**.
 
+# GridAtlas Website
+
+Die offizielle Website befindet sich unter https://gridatlas.de.
+
+Dieses Repository enthält ausschließlich den Quellcode der öffentlichen Marketingwebsite.
+
 ## Sofort veröffentlichen
 
 1. Inhalt dieses Ordners in die Root-Ebene des öffentlichen Repositorys `MSMax15/gridatlas-website` hochladen.
