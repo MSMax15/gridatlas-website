@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="#071426" name="theme-color">
+  <meta
+    content="GridAtlas verbindet Angaben mit Belegstellen, zeigt dokumentübergreifende Widersprüche und dokumentiert die fachliche Entscheidung."
+    name="description"
+  >
+  <meta content="index,follow,max-image-preview:large" name="robots">
+  <meta content="Max Siewert" name="author">
+  <meta content="strict-origin-when-cross-origin" name="referrer">
+  <meta
+    content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; frame-src 'none'; media-src 'self'; worker-src 'none'; manifest-src 'self'; upgrade-insecure-requests; block-all-mixed-content"
+    http-equiv="Content-Security-Policy"
+  >
+
+  <link href="https://gridatlas.de/produkt/" rel="canonical">
+  <link href="/assets/icons/favicon.svg" rel="icon" type="image/svg+xml">
+  <link href="/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/css/styles.css" rel="stylesheet">
+
+  <title>So funktioniert GridAtlas: PV-Unterlagen mit Belegstellen prüfen</title>
+
+  <meta content="website" property="og:type">
+  <meta content="de_DE" property="og:locale">
+  <meta content="GridAtlas" property="og:site_name">
+  <meta
+    content="So funktioniert GridAtlas: PV-Unterlagen mit Belegstellen prüfen"
+    property="og:title"
+  >
+  <meta
+    content="GridAtlas verbindet Angaben mit Belegstellen, zeigt dokumentübergreifende Widersprüche und dokumentiert die fachliche Entscheidung."
+    property="og:description"
+  >
+  <meta content="https://gridatlas.de/produkt/" property="og:url">
+  <meta
+    content="https://gridatlas.de/assets/images/gridatlas-og.png"
+    property="og:image"
+  >
+
+  <meta content="summary_large_image" name="twitter:card">
+  <meta
+    content="So funktioniert GridAtlas: PV-Unterlagen mit Belegstellen prüfen"
+    name="twitter:title"
+  >
+  <meta
+    content="GridAtlas verbindet Angaben mit Belegstellen, zeigt dokumentübergreifende Widersprüche und dokumentiert die fachliche Entscheidung."
+    name="twitter:description"
+  >
+  <meta
+    content="https://gridatlas.de/assets/images/gridatlas-og.png"
+    name="twitter:image"
+  >
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://gridatlas.de/#website",
+          "url": "https://gridatlas.de/",
+          "name": "GridAtlas",
+          "alternateName": [
+            "GridAtlas Deutschland",
+            "gridatlas.de",
+            "GridAtlas PV-Netzanschluss"
+          ],
+          "description": "Dokumentenbasierter PV-Preflight für Elektro- und PV-Betriebe in Deutschland.",
+          "inLanguage": "de-DE"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://gridatlas.de/#organization",
+          "name": "GridAtlas",
+          "alternateName": "GridAtlas Deutschland",
+          "url": "https://gridatlas.de/",
+          "logo": "https://gridatlas.de/assets/images/gridatlas-logo.png",
+          "email": "kontakt@gridatlas.de",
+          "founder": {
+            "@type": "Person",
+            "name": "Max Siewert"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Müllheim",
+            "addressCountry": "DE"
+          },
+          "sameAs": [
+            "https://github.com/MSMax15/gridatlas-website"
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://gridatlas.de/produkt/#webpage",
+          "url": "https://gridatlas.de/produkt/",
+          "name": "So funktioniert GridAtlas: PV-Unterlagen mit Belegstellen prüfen",
+          "description": "GridAtlas verbindet Angaben mit Belegstellen, zeigt dokumentübergreifende Widersprüche und dokumentiert die fachliche Entscheidung.",
+          "inLanguage": "de-DE",
+          "isPartOf": {
+            "@id": "https://gridatlas.de/#website"
+          },
+          "about": {
+            "@id": "https://gridatlas.de/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Startseite",
+              "item": "https://gridatlas.de/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "So funktioniert es",
+              "item": "https://gridatlas.de/produkt/"
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Zum Hauptinhalt springen</a>
+
+  <header class="site-header" data-header>
+    <div class="shell header__inner">
+      <a
+        aria-label="GridAtlas Startseite"
+        class="brand brand--official"
+        href="/"
+      >
+        <img
+          alt="GridAtlas"
+          class="brand__logo"
+          decoding="async"
+          height="394"
+          src="/assets/images/gridatlas-logo.png"
+          width="1894"
+        >
+      </a>
+
+      <button
+        aria-controls="site-nav"
+        aria-expanded="false"
+        class="menu-button"
+        data-menu-button
+        type="button"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Navigation öffnen</span>
+      </button>
+
+      <nav
+        aria-label="Hauptnavigation"
+        class="site-nav"
+        data-menu
+        id="site-nav"
+      >
+        <ul>
+          <li><a href="/demo/">Demo</a></li>
+          <li><a href="/pv-netzanschluss-check/">Kostenloser Check</a></li>
+          <li><a class="is-active" href="/produkt/">So funktioniert es</a></li>
+          <li><a href="/wissen/">Wissen</a></li>
+          <li>
+            <a class="button button--small" href="/pilot/">
+              Markterprobung
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="shell">
+        <nav aria-label="Brotkrümelnavigation" class="breadcrumbs">
+          <a href="/">Startseite</a>
+          <span>›</span>
+          <span>So funktioniert es</span>
+        </nav>
+
+        <p class="eyebrow">Dokumentenbasierter PV-Preflight</p>
+
+        <h1>
+          Werte nicht nur erkennen, sondern bis zur Belegstelle nachvollziehen.
+        </h1>
+
+        <p class="lead">
+          GridAtlas verbindet wiederkehrende Angaben mit ihrer Quelle,
+          stellt Abweichungen nebeneinander und hält die fachliche
+          Entscheidung im Projekt fest.
+        </p>
+
+        <div class="hero__actions">
+          <a class="button" href="/demo/">Produktdemo ansehen</a>
+          <a
+            class="button button--secondary"
+            href="/pv-netzanschluss-check/"
+          >
+            Prozesscheck starten
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Der Unterschied</p>
+          <h2>
+            Keine bloße Dateiablage und keine automatische Freigabebox.
+          </h2>
+        </div>
+
+        <div class="feature-list feature-list--wide">
+          <article class="feature">
+            <div class="feature__num">01</div>
+            <div>
+              <h3>Kandidaten statt erfundener Wahrheit</h3>
+              <p>
+                Ein erkannter Wert bleibt zunächst ein Kandidat, bis er
+                fachlich bestätigt wurde.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="feature__num">02</div>
+            <div>
+              <h3>Belegstellen sichtbar</h3>
+              <p>
+                Dokument, Seite und Textausschnitt bleiben beim Vergleich
+                verfügbar.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="feature__num">03</div>
+            <div>
+              <h3>Widersprüche dokumentübergreifend</h3>
+              <p>
+                Abweichende Angaben werden zusammengeführt, statt in einzelnen
+                Dateien verborgen zu bleiben.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="feature__num">04</div>
+            <div>
+              <h3>Human Gate</h3>
+              <p>
+                Eine Fachkraft übernimmt, überschreibt, lehnt ab oder vertagt.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="feature__num">05</div>
+            <div>
+              <h3>Deterministischer Prüfstatus</h3>
+              <p>
+                Offene Blocker, Hinweise und ungeklärte Punkte führen zu einem
+                nachvollziehbaren Status.
+              </p>
+            </div>
+          </article>
+
+          <article class="feature">
+            <div class="feature__num">06</div>
+            <div>
+              <h3>Bericht und Audit</h3>
+              <p>
+                Entscheidungen und aktualisierte Projektwerte bleiben
+                nachvollziehbar dokumentiert.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow">Aktueller Erprobungsumfang</p>
+          <h2>Eng genug für einen belastbaren Produktbeweis.</h2>
+        </div>
+
+        <div class="scope-table">
+          <div>
+            <strong>Unterstützte Kernfelder</strong>
+            <span>
+              PV-Leistung, Wechselrichter-Hersteller und -Modell,
+              Wechselrichter-Leistung, Speicherstatus, Speicher-Hersteller
+              und -Modell, ZEREZ-ID
+            </span>
+          </div>
+
+          <div>
+            <strong>Dateien</strong>
+            <span>PDF, PNG und JPEG im kontrollierten Prüfumfang</span>
+          </div>
+
+          <div>
+            <strong>Dokumentintelligenz</strong>
+            <span>
+              Maschinenlesbare PDFs plus manueller Evidence-Fallback
+            </span>
+          </div>
+
+          <div>
+            <strong>Bewusste Grenzen</strong>
+            <span>
+              Keine universelle OCR, keine automatische
+              VNB-Portaleinreichung und keine automatische technische
+              Freigabe
+            </span>
+          </div>
+        </div>
+
+        <div class="cta-panel top-gap">
+          <div>
+            <h2>Passt der Ablauf zu Ihrem Betrieb?</h2>
+            <p>
+              Starten Sie mit dem kostenlosen Prozesscheck oder prüfen Sie
+              einen anonymisierten abgeschlossenen Fall gemeinsam mit uns.
+            </p>
+          </div>
+
+          <div class="inline-actions">
+            <a class="button" href="/pv-netzanschluss-check/">
+              Prozesscheck starten
+            </a>
+
+            <a class="button button--secondary" href="/pilot/">
+              Markterprobung anfragen
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img
+            alt="GridAtlas"
+            class="footer-logo"
+            loading="lazy"
+            height="394"
+            src="/assets/images/gridatlas-logo.png"
+            width="1894"
+          >
+        </div>
+        <p>
+          Dokumentenbasierter PV-Preflight für Elektro- und PV-Betriebe in
+          Deutschland.
+        </p>
+        <p class="footer-small">
+          GridAtlas befindet sich in begrenzter Markterprobung. Die fachliche
+          Entscheidung bleibt beim Menschen.
+        </p>
+      </div>
+
+      <div>
+        <h2>Produkt</h2>
+        <a href="/demo/">Produktdemo</a>
+        <a href="/pv-netzanschluss-check/">Kostenloser Prozesscheck</a>
+        <a href="/produkt/">So funktioniert es</a>
+        <a href="/pilot/">Anonymisierten Fall prüfen</a>
+      </div>
+
+      <div>
+        <h2>Wissen</h2>
+        <a href="/pv-netzanmeldung-checkliste/">
+          PV-Netzanmeldung Checkliste
+        </a>
+        <a href="/netzanschlussunterlagen-pruefen/">
+          Unterlagen prüfen
+        </a>
+        <a href="/rueckfragen-netzbetreiber-pv/">
+          VNB-Rückfragen
+        </a>
+        <a href="/wechselrichter-angaben-pruefen/">
+          Wechselrichterangaben
+        </a>
+      </div>
+
+      <div>
+        <h2>Kontakt &amp; Recht</h2>
+        <a href="mailto:kontakt@gridatlas.de">kontakt@gridatlas.de</a>
+        <a href="/impressum/">Impressum</a>
+        <a href="/datenschutz/">Datenschutz</a>
+        <a href="/security/">Sicherheit</a>
+      </div>
+    </div>
+
+    <div class="shell footer-bottom">
+      <span>© <span data-year></span> GridAtlas</span>
+      <span>Deutschland · PV-Netzanschlussunterlagen</span>
+    </div>
+  </footer>
+
+  <script defer src="/assets/js/config.js"></script>
+  <script defer src="/assets/js/main.js"></script>
+</body>
+</html>
