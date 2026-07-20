@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /danke/
 
 Sitemap: https://gridatlas.de/sitemap.xml

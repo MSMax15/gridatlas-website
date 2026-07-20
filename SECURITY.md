@@ -1,19 +1,22 @@
 # Security Policy
 
 ## Scope
-Dieses Repository enthält ausschließlich die öffentliche statische Website. Keine Produktdaten, Secrets, Kundendokumente oder Backend-Komponenten gehören hierher.
 
-## Reporting
-Meldungen an kontakt@gridatlas.de. Bitte keine sensiblen Daten oder Schadsoftware senden.
+Dieses Repository enthält ausschließlich die öffentliche statische Marketingwebsite. Produktdaten, Zugangsdaten, Kundendokumente, Datenbanken und Backend-Komponenten gehören nicht hierher.
 
-## Hardening
-- GitHub 2FA und Domain Verification
-- Enforce HTTPS
-- Branch Protection
-- minimale Collaborator-Rechte
-- keine Drittanbieter-Skripte
+## Meldungen
+
+Sicherheitsmeldungen an kontakt@gridatlas.de. Bitte keine sensiblen Daten oder Schadsoftware senden.
+
+## Kontrollen
+
+- HTTPS über die Hostingplattform
 - Content Security Policy im HTML
-- Formspree-Honeypot und serverseitige Spamfilter
+- keine externen Analyse- oder Werbeskripte
+- keine öffentliche Registrierung oder Produktanmeldung
+- Formspree-Honeypot und begrenzte Eingabefelder
+- keine Speicherung des Selbstchecks in Cookies oder Local Storage
 
-## Limitation
-GitHub Pages unterstützt keine frei konfigurierbaren Response Header. Die spätere Anwendung muss auf einer Plattform mit serverseitigen Sicherheitsheadern, Authentifizierung, Mandantentrennung, Backups und Logging betrieben werden.
+## Grenze
+
+Eine statische Marketingwebsite ersetzt kein Security-Konzept für die Produkt-App. Ein späterer Online-Preflight benötigt getrenntes Hosting, Authentifizierung, Zugriffstrennung, Backups, Protokollierung und ein eigenes Sicherheitsreview.
